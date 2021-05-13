@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+Class-Path: ./ ./lib/not-yet-commons-ssl-0.3.11.jar ./lib/rzf-utils.jar ./lib/commons-codec-1.4.jar ./lib/guarana-sdk-1.4.0.jar
+Main-Class: tdg.guarana.examples.cafe.test.TestCafe

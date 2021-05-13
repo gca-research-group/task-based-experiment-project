@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<guarana-config>
+
+    <threads/>
+
+    <logging>
+	    <file>guarana.log</file>
+	    <append>false</append>
+	    <suppress-console-output>true</suppress-console-output>
+	    <level>all</level>
+	    <output-format>simple</output-format>
+	    <subsystem>guarana</subsystem>
+    </logging>
+
+    <monitoring>
+
+        <work-queue enabled="true">        
+            <file/>
+            <interval>1000</interval>
+        </work-queue>
+
+        <workers enabled="true">        
+            <file/>
+            <interval>1000</interval>
+        </workers>
+
+        <memory enabled="true">        
+            <file/>
+            <interval>1000</interval>
+        </memory>
+
+    </monitoring>
+
+</guarana-config>

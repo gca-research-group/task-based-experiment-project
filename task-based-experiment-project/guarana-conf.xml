@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<guarana-config>
+        
+    <threads>1</threads>
+        
+    <logging>
+        	    
+        <file>guarana.log</file>
+        	    
+        <append>false</append>
+        	    
+        <suppress-console-output>true</suppress-console-output>
+        	    
+        <level>all</level>
+        	    
+        <output-format>simple</output-format>
+        	    
+        <subsystem>guarana</subsystem>
+            
+    </logging>
+        
+    <monitoring>
+                
+        <work-queue enabled="true">
+                    
+            
+            <file>./cafe-stats/work-queue-stats - [1] [1] [60].txt</file>
+                        
+            <interval>1000</interval>
+                    
+        </work-queue>
+                
+        <workers enabled="true">
+                    
+            
+            <file>./cafe-stats/workers-stats - [1] [1] [60].txt</file>
+                        
+            <interval>1000</interval>
+                    
+        </workers>
+                
+        <memory enabled="true">
+                    
+            
+            <file>./cafe-stats/memory-stats - [1] [1] [60].txt</file>
+                        
+            <interval>1000</interval>
+                    
+        </memory>
+            
+    </monitoring>
+    
+</guarana-config>

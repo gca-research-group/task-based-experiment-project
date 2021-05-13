@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<CafeOrder>
+
+  <OrderId/>
+
+  <Drinks>
+
+    <Drink>
+      <Name>Caipirinha</Name>
+      <Type>Cold</Type>
+    </Drink>
+
+    <Drink>
+      <Name>Expresso</Name>
+      <Type>Hot</Type>
+    </Drink>
+
+  </Drinks>
+
+</CafeOrder>
